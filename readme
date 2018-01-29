@@ -1,5 +1,9 @@
 READ ME 
 
+Pull both file AllotTickets.java and MovieInput.java from Github and run MovieInput.java 
+for desired results.
+
+Code logic:
 Initially all the theater layout is scanned for tot seats and max section number.
 
 
