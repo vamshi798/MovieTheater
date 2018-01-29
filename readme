@@ -1,0 +1,24 @@
+READ ME 
+
+Initially all the theater layout is scanned for tot seats and max section number.
+
+
+All the Movie Requests were filtered in the below order:
+
+first the request with movie seats requested is more than than the theater count then couldn't 
+handle message is displayed.
+
+Later requests with seats requested greater than the max section were kept in hold in temphold.
+
+Then these filtered requests are sorted ascendingly and  were assigned seats if one or
+more than one movie requests together have number of requested seats which matches exactly with 
+any of the theater section layout number starting from the front. 
+
+After all this process then remaining requests and other hold requests are assigned seats if there are
+remaining seats after the above allocation.
+
+Finally if they are any movie requests with seats requested less than remaining seats then they are called to split
+else if seats requested are more then they are denied.Everthing is printed in accordance with initial
+list from the input.  
+
+        
